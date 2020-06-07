@@ -3,6 +3,9 @@
 
 <?php
 include("includes/_head.php");
+require_once "controller/Conectar.php";
+require_once "controller/productos/Producto.php";
+
 ?>
 
 <body id="page-top">
@@ -45,7 +48,10 @@ include("includes/_head.php");
                     </div>
                     <div class="card-body">
                         <?php
-                        include("controller/productos.php");
+                        //include("controller/productos.php");
+                        $productos = new Producto();
+
+                        $resultado =$productos->getAllProducts();
 
                         ?>
                         <div class="table-responsive">
@@ -54,6 +60,7 @@ include("includes/_head.php");
                                 <tr>
                                     <th>Id registro</th>
                                     <th>Descripcio</th>
+                                    <th>Precio</th>
                                     <th>Categoria</th>
                                     <th>Detalles</th>
                                     <th>Eliminar</th>
@@ -63,6 +70,7 @@ include("includes/_head.php");
                                 <tr>
                                     <th>Id registro</th>
                                     <th>Descripcio</th>
+                                    <th>Precio</th>
                                     <th>Categoria</th>
                                     <th>Detalles</th>
                                     <th>Eliminar</th>
@@ -71,13 +79,14 @@ include("includes/_head.php");
                                 <tbody>
 
 
-                                <?php while ($row1 = mysqli_fetch_array($productos)): ?>
+                                <?php while ($row1 = mysqli_fetch_array($resultado)): ?>
                                     <tr>
                                         <td><?php echo $row1[0]; ?></td>
                                         <td><?php echo $row1[1]; ?></td>
                                         <td><?php echo $row1[2]; ?></td>
+                                        <td><?php echo $row1[3]; ?></td>
                                         <td><a href="#" class="btn btn-primary" role="button">Ver Detalles</a></td>
-                                        <td><a href="#" class="btn btn-danger" role="button">Eliminar</a></td>
+                                        <td><a href="controller/productos/_eliminar_pruducto.php?id=<?php echo $row1[0]?>" class="btn btn-danger" role="button">Eliminar</a></td>
 
                                     </tr>
                                 <?php endwhile; ?>
