@@ -5,6 +5,10 @@
         <i class="fa fa-bars"></i>
     </button>
 
+    <button class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 btn btn-info">
+        Vender
+    </button>
+
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto">
 
@@ -120,8 +124,8 @@
         <!-- Nav Item - User Information -->
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Scarlett ♥</span>
-                <img class="img-profile rounded-circle" src="https://aws.glamour.mx/prod/designs/v1/assets/699x1000/218899.jpg" width="60" height="60">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Mariana ♥</span>
+                <img class="img-profile rounded-circle" src="img/Mar.jpg" width="60" height="60">
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

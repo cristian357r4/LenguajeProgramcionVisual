@@ -4,10 +4,6 @@
 class Producto
 {
 
-    private $id_producto;
-    private $decripcion;
-    private $id_categoria;
-
     /**
      * Producto constructor.
      */
@@ -47,6 +43,4 @@ class Producto
     }
 
 }
-
-
 ?>
