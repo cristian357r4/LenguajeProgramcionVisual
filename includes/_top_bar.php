@@ -5,6 +5,8 @@
         <i class="fa fa-bars"></i>
     </button>
 
+    <a href="ventas.php" class="btn btn-danger" role="button">Eliminar</a>
+
     <button class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 btn btn-info">
         Vender
     </button>
