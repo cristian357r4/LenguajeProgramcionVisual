@@ -7,7 +7,8 @@
 
     $producto = new Producto();
     if($producto->productos_eliminar($id)==1){
-        header("location: http://localhost/Proyectos/LenguajeProgramacionVisual/inventario.php");
+        //echo $_SERVER['HTTP_HOST'];
+        header("location: ../../inventario.php");
     }else{
         echo "fallo al agregar";
     }
