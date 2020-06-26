@@ -2,7 +2,10 @@
 <html lang="en">
 
 <?php
+<<<<<<< HEAD
 session_start();
+=======
+>>>>>>> 34b2e0c44c07919c8efc72d31899dae6287997ab
 include("includes/_head.php");
 ?>
 
@@ -33,6 +36,12 @@ include("includes/_head.php");
             <div class="container-fluid">
 
 
+<<<<<<< HEAD
+=======
+
+                    <!-- The slideshow -->
+                HeLLO
+>>>>>>> 34b2e0c44c07919c8efc72d31899dae6287997ab
                 <!-- Contenido -->
 
 

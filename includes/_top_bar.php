@@ -5,6 +5,14 @@
         <i class="fa fa-bars"></i>
     </button>
 
+<<<<<<< HEAD
+=======
+    <a href="ventas.php" class="btn btn-danger" role="button">Eliminar</a>
+
+    <button class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 btn btn-info">
+        Vender
+    </button>
+>>>>>>> 34b2e0c44c07919c8efc72d31899dae6287997ab
 
     <a href="ventas.php" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 btn btn-info" role="button">Vender</a>
     <!-- Topbar Navbar -->
