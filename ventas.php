@@ -2,6 +2,7 @@
 <html lang="en">
 
 <?php
+session_start();
 include("includes/_head.php");
 ?>
 
@@ -68,4 +69,4 @@ include("includes/_scripts.php");
 
 </body>
 
-n</html>
+</html>

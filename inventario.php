@@ -2,6 +2,7 @@
 <html lang="en">
 
 <?php
+session_start();
 include("includes/_head.php");
 require_once "controller/Conectar.php";
 require_once "controller/productos/Producto.php";
