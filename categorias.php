@@ -122,6 +122,18 @@ require_once "controller/categorias/Categoria.php";
 include("includes/_scripts.php");
 ?>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        if(window.location.href.indexOf("text=error") > -1) {
+            alert("No se puede eliminar: Llave foranea en uso");
+        }
+        else if(window.location.href.indexOf("text=success") > -1) {
+            alert("Categoria Eliminada CORRECTAMENTE!");
+        }
+    });
+</script>
+
 </body>
+
 
 </html>
