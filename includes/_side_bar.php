@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Abarrotes<sup>Lucia</sup></div>
+        <div class="sidebar-brand-text mx-3">Abarrotes<sup>San Charbel</sup></div>
     </a>
 
     <!-- Divider -->
@@ -15,7 +15,8 @@
     <li class="nav-item active">
         <a class="nav-link" href="index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Informacion General</span></a>
+            <span>Informacion General</span><br></a>
+
     </li>
 
     <!-- Divider -->
@@ -36,6 +37,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Opciones</h6>
+                <a class="collapse-item" href="altaP.php">Alta de Productos</a>
                 <a class="collapse-item" href="inventario.php">Inventario</a>
                 <a class="collapse-item" href="categorias.php">Categorias</a>
 

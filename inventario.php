@@ -44,7 +44,7 @@ require_once "controller/productos/Producto.php";
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Tabla de Inventario  <a href="#" class="btn btn-info justify-content-end" role="button" >Agregar Producto</a></h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Tabla de Inventario  <a href="altaP.php" class="btn btn-info justify-content-end" role="button" >Agregar Producto</a></h6>
 
                     </div>
                     <div class="card-body">

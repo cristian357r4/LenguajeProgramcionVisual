@@ -44,7 +44,7 @@ require_once "controller/categorias/Categoria.php";
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Tabla de Inventario  <a href="#" class="btn btn-info justify-content-end" role="button" >Agregar Categria</a></h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Tabla de Inventario  <a href="altaC.php" class="btn btn-info justify-content-end" role="button" >Agregar Categoria</a></h6>
 
                     </div>
                     <div class="card-body">
@@ -59,13 +59,13 @@ require_once "controller/categorias/Categoria.php";
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                 <tr>
-                                    <th>Descripcio</th>
+                                    <th>Descripcion</th>
                                     <th>Eliminar</th>
                                 </tr>
                                 </thead>
                                 <tfoot>
                                 <tr>
-                                    <th>Descripcio</th>
+                                    <th>Descripcion</th>
                                     <th>Eliminar</th>
                                 </tr>
                                 </tfoot>
