@@ -2,6 +2,7 @@
 <html lang="en">
 
 <?php
+session_start();
 include("includes/_head.php");
 ?>
 
@@ -32,7 +33,7 @@ include("includes/_head.php");
             <div class="container-fluid">
 
 
-                <!-- Contenido -->
+
 
 
             </div>

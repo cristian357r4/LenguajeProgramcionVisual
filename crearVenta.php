@@ -14,5 +14,5 @@ $insert = mysqli_query($conexion->conexion(), $detalleVenta);
 
 
 
-
+header("location: ventas.php");
 //$crea = "Insert into "
