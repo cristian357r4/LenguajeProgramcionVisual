@@ -1,4 +1,4 @@
-GET https://localhost/Proyectos/LenguajeProgramacionVisual/controller/productos/jsonautofill_test/1
+GET https://localhost/Proyectos/LenguajeProgramacionVisual/controller/productos/jsonautofill_test/papa
 Accept: application/json
 
 

@@ -22,7 +22,7 @@ class Producto
     {
         $conexion = new Conectar();//constructor de la clase
 
-        $query_productos = "SELECT prod.id_producto, prod.descripcion, prod.precio,
+        $query_productos = "SELECT prod.id, prod.nombre, prod.precio,
                (SELECT cat.descripcion
                 FROM categoria_productos AS cat
                 WHERE prod.id_categoria = cat.id_categoria )AS categoria
